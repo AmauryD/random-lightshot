@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random lightshot</title>
+	<script
+			src="https://code.jquery.com/jquery-3.4.0.min.js"
+			integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+			crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<script src="js/randomLightShot.js" type="text/javascript"></script>
+	<meta charset="UTF-8"/>
+</head>
+<body class="day">
+	<nav class="navbar navbar-dark bg-dark text-white">
+		<a class="navbar-brand">Random lightshot</a>
+		<a id="nigth-mode">Night mode</a>
+		<a id="child-mode">Child friendly mode</a>
+		<a id="statusText" class="navbar-brand float-right"></a>
+		<span class="text-white">Made with <3 by Amaury</span>
+	</nav>
+	<div class="container" id="content">
+		<div class="row">
+			<div class="col-12">
+				<h1 class="text-center">Génerateur de fun 2000</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<h4>History</h4>
+				<div class="row">
+					<div class="col-12" id="historyDiv">
+						<ul id="history">
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="text-center">
+					<a href="" id="image-url" target="_blank">
+						<img src="#" class="img-fluid" alt="lightshot image" id="image"/>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div id="img-zoom" class="img-zoom-result"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 mx-auto">
+				<div class="text-center">
+					<p><i>Use A key to load a new picture</i></p>
+					<div>
+						<span>Mode auto : </span>
+						<input type="button" id="autoModeBtn">
+					</div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar" id="progress" role="progressbar">
+						
+					</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.day {
+    background-color : white;
+    color : black;
+}
+
+.night {
+    background-color : black;
+    color : white;
+}
+
+.night a {
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+  margin-top: 1em;
+}
+
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+#historyDiv {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 50vh;
+}
+
+.blurr {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+/** Zoom **/
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 512px;
+  height: 512px;
+}
